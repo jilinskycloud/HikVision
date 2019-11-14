@@ -1,0 +1,25 @@
+[2019-11-01 16:31:07.600][INF] The COM:HCCoreBase ver is 1.0.0.1, 2018_06_01. Async:1.
+[2019-11-01 16:31:07.600][INF] The COM:Core ver is 6.0.2.35, 2019_04_11. Async:1.
+[2019-11-01 16:31:07.600][INF] This HCNetSDK ver is 6.0.2.35 Ver 2019_04_11.
+[2019-11-01 16:31:07.600][INF] Login dev 192.168.1.122:8000.
+[2019-11-01 16:31:07.602][INF] Private connect 192.168.1.122:8000 sock=35 this=0x209a0a4 cmd=0x10000 port=37410
+[2019-11-01 16:31:07.602][INF] LogonDev1 in[192.168.1.122:8000]
+[2019-11-01 16:31:07.603][INF] CCoreGlobalCtrlBase::LoadDSoByPath, load path[libcrypto.so] success, handle[34209856]
+[2019-11-01 16:31:07.603][INF] CCoreGlobalCtrlBase::LoadDSo, load path[libcrypto.so] success, handle[34209856]
+[2019-11-01 16:31:07.604][INF] CCoreGlobalCtrlBase::LoadDSoByPath, load path[libssl.so] success, handle[34211456]
+[2019-11-01 16:31:07.604][INF] CCoreGlobalCtrlBase::LoadDSo, load path[libssl.so] success, handle[34211456]
+[2019-11-01 16:31:07.604][INF] SSLTRANSAPI::LoadAPI, libeay, Load Real Path[./libcrypto.so]
+[2019-11-01 16:31:07.604][INF] SSLTRANSAPI::LoadAPI, libssl, Load Real Path[./libssl.so]
+[2019-11-01 16:31:07.604][INF] SSLTRANSAPI::PrintVersion, OpenSSL version info [OpenSSL 1.0.2p  14 Aug 2018]
+[2019-11-01 16:31:07.604][INF] CSSLTrans::SSLCtxInit, dwSSLVersion[0], m_fnClientMethodV23
+[2019-11-01 16:31:07.605][ERR]  GetCAPath, Failed, Invalid pPath
+[2019-11-01 16:31:07.636][ERR]  GetCAPath, Failed, Invalid pPath
+[2019-11-01 16:31:07.642][ERR] AnalyzeLoginParams pSecurityInfo->dwDevTime=1280210687,struLoginOutInfo.dwCheckTime=1280816336, tickTime=605649
+[2019-11-01 16:31:07.643][DBG] load full path[.//HCNetSDKCom/libHCPreview.so] succ
+[2019-11-01 16:31:07.643][INF] AbilityAnalyze---Init-- start
+[2019-11-01 16:31:07.643][DBG] AbilityAnalyze---Init-- over, DeviceList path [/mnt/HikVIsion/HCNetSDKV6.0.2.35_build20190411_Linux64_EN/consoleDemo/linux64/lib/HCNetSDKCom/LocalXml/DeviceList.xml], load result[0]
+[2019-11-01 16:31:07.643][INF] The COM:Preview ver is 6.0.2.35, 2019_04_11.
+[2019-11-01 16:31:07.644][INF] Private connect 192.168.1.122:8000 sock=35 this=0x209a0a4 cmd=0x30009 port=37412
+[2019-11-01 16:31:08.084][INF] COM_Logout[0][1]
+[2019-11-01 16:31:08.084][DBG] CUserMgr::UnRegisterHeartProxy[0]
+[2019-11-01 16:31:08.086][INF] Private connect 192.168.1.122:8000 sock=35 this=0x209a0a4 cmd=0x10100 port=37414

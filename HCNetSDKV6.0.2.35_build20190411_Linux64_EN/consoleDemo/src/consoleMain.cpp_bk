@@ -1,0 +1,46 @@
+#ifndef __APPLE__
+
+#include <stdio.h>
+#include <iostream>
+#include "GetStream.h"
+#include "public.h"
+#include "ConfigParams.h"
+#include "CapPicture.h"
+#include "tool.h"
+#include <string.h>
+using namespace std;
+
+int main(int argc, char* argv[])
+{
+   char* uname;
+   char* pass;
+   char* ip;
+   char* dir;
+   //std::cout << "Usage: sdkTest:: Username | Password | IP | Dir" << "\n";
+   // Check the number of parameters
+    if (argc < 4) {
+       uname = "admin";
+       pass  = "admin12345";
+       ip    = "192.168.1.122";
+       dir   = "IMG/"; 
+
+    }else{
+
+       uname = argv[1];
+       pass  = argv[2];
+       ip    = argv[3];
+       dir   = argv[4];
+}
+        // Print the user's name:
+   // std::cout <<  "UserName::, " << uname << "!\n" << std::endl;
+   // std::cout <<  "Password::, " << pass << "!\n" << std::endl;
+   // std::cout <<  "IP::, " << ip << "!\n" << std::endl;
+   // std::cout <<  "Port::, " << "8000" << "!\n" << std::endl;
+   // std::cout <<  "Dir::, " << dir << "!\n" << std::endl; 
+   // std::cout << "here is end of old\n";
+    NET_DVR_Init();
+    Demo_Capture(uname,pass,ip,dir);
+    return 0;
+}
+
+#endif
